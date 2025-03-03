@@ -1,2 +1,2 @@
 
-![Gopher in Space](gopher-space.png)
+![Gopher in Space](gopher-space.jpg)
