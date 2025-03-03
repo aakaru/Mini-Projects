@@ -1,7 +1,5 @@
 # URL Shortener
 
-![Gopher in Space](gopher-space.png)
-
 This is a simple URL shortener service built using Go. It allows you to create shortened URLs for long web addresses, making them easier to share and manage.
 
 ## Features
