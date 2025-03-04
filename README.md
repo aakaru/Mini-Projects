@@ -7,5 +7,9 @@ Here are some of the most common projects built in Go, helping you to discover m
 ### List of Projects:
 
 * URL-shortener
+  
+  This is a simple URL shortener service built using Go. It allows you to create shortened URLs for long web addresses, making them easier to share and manage.
 
-This is a simple URL shortener service built using Go. It allows you to create shortened URLs for long web addresses, making them easier to share and manage.
+* Movies CRUD API
+  
+  A lightweight Go-based RESTful API for managing a movie database with full CRUD operations using Gorilla Mux router.
