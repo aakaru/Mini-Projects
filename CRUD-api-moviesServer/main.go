@@ -80,23 +80,22 @@ func updateMovie(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	//Create a router r
+	
 	r := mux.NewRouter()
-	//Movies data
+	
 	movies = append(movies, Movie{ID: "1", Isbn: "111", Title: "Movie 1", Director: &Director{Firstname: "John", Lastname: "Doe"}})
 	movies = append(movies, Movie{ID: "2", Isbn: "222", Title: "Movie 2", Director: &Director{Firstname: "Jane", Lastname: "Smith"}})
 	movies = append(movies, Movie{ID: "3", Isbn: "333", Title: "Movie 3", Director: &Director{Firstname: "Michael", Lastname: "Johnson"}})
 	movies = append(movies, Movie{ID: "4", Isbn: "444", Title: "Movie 4", Director: &Director{Firstname: "Emily", Lastname: "Davis"}})
 	movies = append(movies, Movie{ID: "5", Isbn: "555", Title: "Movie 5", Director: &Director{Firstname: "Robert", Lastname: "Brown"}})
 
-	//Handle Requests
-	r.HandleFunc("/movies", getMovies).Methods("GET")
-	r.HandleFunc("/movies/{id}", getMovieByID).Methods("GET")   //Read
-	r.HandleFunc("/movies/", createMovie).Methods("POST")       //Create
-	r.HandleFunc("/movies/{id}", updateMovie).Methods("PUT")    //Update
-	r.HandleFunc("/movies/{id}", deleteMovie).Methods("DELETE") //Delete
 
-	//Creating server
+	r.HandleFunc("/movies", getMovies).Methods("GET")
+	r.HandleFunc("/movies/{id}", getMovieByID).Methods("GET")  
+	r.HandleFunc("/movies/", createMovie).Methods("POST")       
+	r.HandleFunc("/movies/{id}", updateMovie).Methods("PUT")    
+	r.HandleFunc("/movies/{id}", deleteMovie).Methods("DELETE") 
+
 	fmt.Println("Starting server on port 8000\n")
 	log.Fatal(http.ListenAndServe(":8000", r))
 }
