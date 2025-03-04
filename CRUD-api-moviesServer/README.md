@@ -1,4 +1,4 @@
-# 🎬 Go Movies CRUD API Server 🍿
+# Go Movies CRUD API Server 
 
 ## Project Overview 🚀
 This is a simple CRUD (Create, Read, Update, Delete) API server for managing a movie database, built using Go and the Gorilla Mux router. The application provides endpoints to interact with a collection of movies.
