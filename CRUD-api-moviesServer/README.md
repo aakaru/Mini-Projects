@@ -55,8 +55,6 @@ go run main.go
 }
 ```
 
-## Running Tests 🧪
-*Coming soon* - Test suite to be added
 
 ## Contributing 🤝
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
