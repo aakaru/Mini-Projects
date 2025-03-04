@@ -20,11 +20,11 @@ type URL struct {
 var urlDB = make(map[string]URL)
 
 func generateShortURL(OriginalURL string) string {
-	hasher := md5.New()               //converts string to hash
-	hasher.Write([]byte(OriginalURL)) //converts url to byte slice
+	hasher := md5.New()               
+	hasher.Write([]byte(OriginalURL)) 
 	data := hasher.Sum(nil)
 	fmt.Println("hasher data:", data)
-	hash := hex.EncodeToString(data) //encodes the hashbytes to string
+	hash := hex.EncodeToString(data) 
 	fmt.Println("hash:", hash[:8])
 	return hash[:8]
 }
@@ -80,11 +80,11 @@ func main() {
 	//fmt.Println("Starting URL Shortener..")
 	//generateShortURL("https://github.com/aakaru")
 
-	//Creating SERVER
+	
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/shortener", shortURLHandler)
 	http.HandleFunc("/redirect/", redirectURLHandler)
-	//Start the http server at PORT 3000
+	
 	fmt.Println("Starting server on PORT 3000")
 	err := http.ListenAndServe(":3000", nil)
 	if err != nil {
