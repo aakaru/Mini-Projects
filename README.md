@@ -13,3 +13,7 @@ Here are some of the most common projects built in Go, helping you to discover m
 * Movies CRUD API
   
   A lightweight Go-based RESTful API for managing a movie database with full CRUD operations using Gorilla Mux router.
+
+* Egg Timer
+
+  A visually engaging egg timer app built with Go and Gio UI that displays an animated egg changing from white to yellow as your cooking timer progresses.
