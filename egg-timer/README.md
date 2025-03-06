@@ -1,4 +1,4 @@
-#  Gio Egg Timer 🥚
+# Egg Timer 🥚
 
 A visually appealing, minimalist egg timer application built with Go and the Gio UI toolkit. This timer features an animated egg that changes color as time progresses, a customizable timer duration, and a clean user interface.
 
