@@ -25,3 +25,7 @@ Here are some of the most common projects built in Go, helping you to discover m
 * Simple URL Scraper
   
   A concurrent web crawler that extracts all unique URLs from specified web pages.
+
+* CLI Text Editor
+
+  A minimalist command-line tool that allows users to view and edit text files through a straightforward terminal interface.
