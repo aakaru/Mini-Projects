@@ -17,3 +17,10 @@ Here are some of the most common projects built in Go, helping you to discover m
 * Egg Timer
 
   A visually engaging egg timer app built with Go and Gio UI that displays an animated egg changing from white to yellow as your cooking timer progresses.
+
+* QR Code Generator
+  
+  A simple Go command-line tool that converts text input into PNG QR code images.
+
+* Simple URL Scraper
+  A concurrent web crawler that extracts all unique URLs from specified web pages.
