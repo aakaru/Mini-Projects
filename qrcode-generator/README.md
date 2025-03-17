@@ -11,10 +11,10 @@ A simple command-line tool to generate QR codes from text input.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qr-generator.git
+git clone https://github.com/yourusername/qrcode-generator.git
 
 # Navigate to the project directory
-cd qr-generator
+cd qrcode-generator
 
 # Build the project
 go build -o qrgen
