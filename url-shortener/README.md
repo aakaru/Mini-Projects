@@ -14,11 +14,11 @@ This is a simple URL shortener service built using Go. It allows you to create s
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/go-url-shortener.git
+   git clone https://github.com/your-username/url-shortener.git
    ```
 1. Navigate to the project directory:
    ```bash
-   cd go-url-shortener
+   cd url-shortener
    ```
 2. Run the application:
    ```bash
