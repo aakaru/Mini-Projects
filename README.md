@@ -29,3 +29,9 @@ Here are some of the most common projects built in Go, helping you to discover m
 * CLI Text Editor
 
   A minimalist command-line tool that allows users to view and edit text files through a straightforward terminal interface.
+
+* Reminder Tool
+
+  Here's a brief one-liner description for your project:
+
+"A command-line tool written in Go that schedules and displays system notifications for time-based reminders."
