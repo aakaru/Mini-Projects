@@ -32,4 +32,4 @@ Here are some of the most common projects built in Go, helping you to discover m
 
 * Reminder Tool
 
- A command-line tool written in Go that schedules and displays system notifications for time-based reminders.
+  A command-line tool written in Go that schedules and displays system notifications for time-based reminders.
