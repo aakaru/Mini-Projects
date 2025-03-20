@@ -1,5 +1,5 @@
 # Mini projects in Go
-Here are some of the most common projects built in Go, helping you to discover more about the language, as well as sharpening your skills if you're a beginner. I'll be adding these projects on daily basis, from beginner to advance.  
+Here are some of the most common projects built in Go, helping you to take a deeper dive into the workd of Go Programming Language. Projects play a vital role in enhancing your knowledge and logic building, as well as sharpening your skills. I'll be adding these projects on daily basis, ranging from beginner to advance.  
 
 ## Let's Go!
 <img src="gopher-space.jpg" alt="Gopher in Space" width="300">
