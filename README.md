@@ -30,4 +30,6 @@ Here are some of the most common projects built in Go, helping you to take a dee
 
   A minimalist command-line tool that allows users to view and edit text files through a straightforward terminal interface.
 
+* Reminder Tool
 
+  A command-line tool written in Go that schedules and displays system notifications for time-based reminders.
