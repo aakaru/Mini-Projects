@@ -33,3 +33,8 @@ Here are some of the most common projects built in Go, helping you to take a dee
 * Reminder Tool
 
   A command-line tool written in Go that schedules and displays system notifications for time-based reminders.
+
+* Snippet Parser
+
+  Breaking down compilation into bite-sized pieces: a learning journey through tokenization, parsing, and code generation.
+  
