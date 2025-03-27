@@ -1,11 +1,12 @@
 # QR Code Generator
 
-A simple command-line tool to generate QR codes from text input.
+A command-line tool to generate QR codes from text input.
 
 ## Features
 - Quickly generate QR codes from command line arguments
-- Creates a PNG image file with the encoded data
+- Uses medium error correction level
 - Uses the reliable go-qrcode library
+- Produces 256x256 pixel PNG images
 
 ## Installation
 
