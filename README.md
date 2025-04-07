@@ -37,4 +37,7 @@ Here are some of the most common projects built in Go, ranging from beginner to 
 * Snippet Parser
 
   Breaking down compilation into bite-sized pieces: a learning journey through tokenization, parsing, and code generation.
-  
+
+* Github Activity Tracker
+
+  A Go CLI tool that displays a GitHub user's recent activity directly in your terminal.
